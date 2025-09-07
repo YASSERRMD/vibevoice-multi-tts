@@ -12,4 +12,4 @@ soundfile
 torch
 tqdm
 transformers
-git+https://github.com/microsoft/VibeVoice.git
+git+https://github.com/YASSERRMD/VibeVoice.git
