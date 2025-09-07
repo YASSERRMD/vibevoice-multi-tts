@@ -5,7 +5,7 @@
 <img src="banner.png" width="800" />
 
 Multi-speaker Text-to-Speech application using Microsoft’s **VibeVoice** models.
-Supports different model sizes (1.5B, 7B Large, and Large quantized variants).
+Supports different model sizes (1.5B, 7B Large, and Large variants).
 
 ---
 
@@ -55,11 +55,11 @@ python app.py
 Different models have different GPU memory (VRAM) needs.
 Choose the model based on your available GPU.
 
-| Model Variant                         | Typical VRAM Usage | Recommended VRAM | Notes                                                                              |
-| ------------------------------------- | ------------------ | ---------------- | ---------------------------------------------------------------------------------- |
-| **VibeVoice 1.5B**                    | \~7 GB             | 8 GB             | Runs on RTX 3060 or similar. Handles up to 90-min speech with 64K context.         |
-| **VibeVoice 7B (Large)**              | \~17–19 GB         | 24 GB            | Better audio fidelity, \~45-min speech with 32K context. RTX 3090/4090 class GPUs. |
-| **VibeVoice Large (Quantized 4-bit)** | \~7 GB             | 8 GB             | Optimized for smaller GPUs. Nearly same quality as 7B but lighter.                 |
+| Model Variant        | Typical VRAM Usage | Recommended VRAM | Notes                                              |
+|----------------------|--------------------|------------------|----------------------------------------------------|
+| **VibeVoice 1.5B**  | ~7 GB              | 8 GB             | Handles up to 90-min speech with 64K context.      |
+| **VibeVoice 7B**    | ~17–19 GB          | 24 GB            | Higher fidelity, ~45-min speech with 32K context.  |
+| **VibeVoice Large** | ~19–20 GB          | 28 GB            | Full ~9B model, optimized for long-form synthesis. |
 
 ---
 
