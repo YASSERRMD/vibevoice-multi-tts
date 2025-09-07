@@ -2,6 +2,8 @@
 
 # VibeVoice Multi-TTS App
 
+<img src="banner.png" width="800" />
+
 Multi-speaker Text-to-Speech application using Microsoft’s **VibeVoice** models.
 Supports different model sizes (1.5B, 7B Large, and Large quantized variants).
 
