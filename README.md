@@ -7,7 +7,7 @@ Supports different model sizes (1.5B, 7B Large, and Large quantized variants).
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 * **Python 3.9+**
 * **FFmpeg** must be installed and available in PATH
