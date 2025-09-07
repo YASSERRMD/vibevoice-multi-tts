@@ -446,9 +446,9 @@ def run_demo(
     """
     if model_paths is None:
         model_paths = {
-            "VibeVoice-Large":"aoi-ot/VibeVoice-Large", # "microsoft/VibeVoice-Large",
+            "VibeVoice-1.5B": "microsoft/VibeVoice-1.5B",
             "VibeVoice-7B": "aoi-ot/VibeVoice-7B",
-            "VibeVoice-1.5B": "microsoft/VibeVoice-1.5B"
+            "VibeVoice-Large":"aoi-ot/VibeVoice-Large" 
         }
 
     set_seed(42)
